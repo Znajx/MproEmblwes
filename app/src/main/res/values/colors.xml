@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_navy">#17263D</color>
+    <color name="primary_navy_dark">#223653</color>
+    <color name="accent_gold">#B58A45</color>
+    <color name="accent_gold_light">#D8B978</color>
+    <color name="background_cream">#F4F0E7</color>
+    <color name="surface_paper">#FFFEFB</color>
+    <color name="text_ink">#273449</color>
+    <color name="text_muted">#788294</color>
+    <color name="line_border">#DED7C9</color>
+    <color name="status_green">#47745B</color>
+    <color name="status_red">#A84E4E</color>
+    <color name="status_orange">#A97735</color>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "حضور الموظفين",
+  "description": "نظام إدارة الحضور والانصراف والموظفين والأقسام والورديات والإجازات والتقارير الشهرية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

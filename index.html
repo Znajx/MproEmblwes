@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/app/src/main/res/drawable/attendance_icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>حضور الموظفين — نظام إدارة الحضور والانصراف</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: '#17263D',
+              navy2: '#223653',
+              gold: '#B58A45',
+              gold2: '#D8B978',
+              cream: '#F4F0E7',
+              paper: '#FFFEFB',
+              ink: '#273449',
+              muted: '#788294',
+              line: '#DED7C9',
+              greenCustom: '#47745B',
+              redCustom: '#A84E4E',
+              orangeCustom: '#A97735',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
+      body {
+        font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+        background-color: #F4F0E7;
+        color: #273449;
+      }
+    </style>
+  </head>
+  <body class="bg-cream text-ink min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
